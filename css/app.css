@@ -1,0 +1,32 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #F6F8F9;
+}
+
+/* HEADER */
+
+.page-header {
+    background-color: white;
+}
+
+/* MAIN */
+
+.page-main{
+    padding: 16px;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0px auto;
+}
+.btn, .content{
+    background-color: white;
+    padding: 16px;
+    border-radius: 4px;
+}
