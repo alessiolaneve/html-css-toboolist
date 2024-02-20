@@ -3,15 +3,29 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
 }
 
 body {
     background-color: #F6F8F9;
 }
 
+ol > li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 24px;
+}
+
 ul {
     list-style: none;
+    margin: 6px 20px;
 }
+
+li {
+    padding: 6px;
+}
+
 /* HEADER */
 
 .page-header {
@@ -39,6 +53,63 @@ ul {
     padding: 16px 60px;
 }
 
+.check {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    color: green;
+    border: 1px solid;
+    border-radius: 50%;
+    border-color: green;
+    padding: 0px 4px;
+}
+
+.cross {
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        color: red;
+        border: 1px solid;
+        border-radius: 50%;
+        border-color: red;
+        padding: 0px 4px;
+}
+
+.label {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.ed {
+    background-color: #09A9ED;
+}
+
+.q {
+    background-color: #AB5DE6;
+}
+
+.rec {
+    background-color: #22c9aa;
+}
+
+.mob {
+    background-color: #f1852d;
+}
+
+.sales {
+    background-color: #A3D116;
+}
+
+.web { 
+    background-color: #EC4A9D;
+}
+
 /* BUTTONS */
 .btn{
     margin-bottom: 2px;
@@ -63,5 +134,7 @@ ul {
     font-size: 12px;
     border-radius: 4px;
 }
+
+
 
 
